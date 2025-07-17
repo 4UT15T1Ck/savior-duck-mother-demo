@@ -1,6 +1,7 @@
 ﻿Savior Duck Mother(demo)
 
 this is a demo of "Savior Duck Mother" - a pygame game made by me out of bore :V
+
 the demo includes about 80% of the game, the missing parts are some sprites for background, victory screen, 
 some sound effects and maybe an intro screen for the lore but I don't really have that much time.
 
@@ -12,11 +13,19 @@ you can fly up in the air and dive down in water, the only way you could get out
 there are power up sometimes with side effects or easter egg and it will show in the wiki once you see them. That's it.
 
 Here some keyboard shortcut if you prefer:
+
 RIGHT ARROW: BACK
+
 SPACE      : FLY / UNPAUSE
+
 P          : ENDLESS MODE / PAUSE 
+
 S          : SETTING / STAT
+
 T          : STORY MODE
+
 M          : MUTE / UNMUTE / MENU
+
 W          : WIKI
+
 R          : RESTART
