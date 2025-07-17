@@ -43,7 +43,7 @@ class Config:
             return 450, 800
     
     def load(self):
-        with open('entity/data.pkl', 'rb') as file:
+        with open('data/data.pkl', 'rb') as file:
             db = pickle.load(file)
             self.hi_score = db['hi_score']
             self.endless_play = db['endless_play']
@@ -57,7 +57,7 @@ class Config:
               'min_hp': self.min_boss_hp,
               'story_play': self.story_play, 
               'vic_count': self.victory_count}
-        with open('entity/data.pkl', 'wb') as file:
+        with open('data/data.pkl', 'wb') as file:
             pickle.dump(db, file)       
 
     def mute(self):

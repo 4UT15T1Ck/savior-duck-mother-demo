@@ -21,7 +21,7 @@ class Image:
                      pygame.transform.scale(loadify('sprites/halfup.png'), (int(config.bird_w*0.7), int(config.bird_h*0.7))),
                      pygame.transform.scale(loadify('sprites/upflap.png'), (int(config.bird_w*0.7), int(config.bird_h*0.7)))]
         
-        self.pipe_set = [pygame.transform.scale(loadify('sprites/pipe-green.png'), (config.pipe_w, config.pipe_h))]
+        self.pipe_set = [pygame.transform.scale(loadify('sprites/trunk.png'), (config.pipe_w, config.pipe_h))]
         self.pipe_set.append(pygame.transform.flip(self.pipe_set[0], False, True))
         
         self.base_im = pygame.transform.scale(loadify('sprites/base.png'), (config.base_w, config.base_h))

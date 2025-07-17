@@ -1,4 +1,5 @@
-__pycache__/config.cpython-312.pyc
-__pycache__/image.cpython-312.pyc
-__pycache__/play.cpython-312.pyc
-__pycache__/sound.cpython-312.pyc
+__pycache__/
+entity/__pycache__/
+build
+dist
+*.spec
